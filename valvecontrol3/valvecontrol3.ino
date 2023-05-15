@@ -1,19 +1,19 @@
 char input;
 unsigned long hourInMs = 3600000;
-unsigned long actualInterval = 24*hourInMs;
+unsigned long actualInterval = 6*hourInMs;
 unsigned long timeUntilFirstRun = 10000;
 unsigned long intervalAfterFirstRun = actualInterval;
 
 unsigned long interval=timeUntilFirstRun;
 
 
-unsigned long opentime1 = 6000;
+unsigned long opentime1 = 8000;
 
-unsigned long opentime2 = 6000 + opentime1;
+unsigned long opentime2 = 8000 + opentime1;
 
-unsigned long opentime3 = 6000 + opentime2;
+unsigned long opentime3 = 8000 + opentime2;
 
-unsigned long opentime4 = 6000 + opentime3;
+unsigned long opentime4 = 8000 + opentime3;
 
 // Tracks the time since last event fired
 unsigned long previousMillis=0;
